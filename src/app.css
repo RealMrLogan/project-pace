@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Rubik";
+    font-optical-sizing: auto;
+    font-style: normal;
+    src: url(fonts/rubik_variable.woff2) format('woff2');
+  }
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Rubik';
+}
